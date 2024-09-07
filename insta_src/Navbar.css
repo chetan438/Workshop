@@ -1,0 +1,50 @@
+/* Overall navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo styling */
+  .navbar__logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Search input styling */
+  .navbar__search {
+    flex: 1;
+    margin: 0 10px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+  }
+  
+  /* Icons container styling */
+  .navbar__icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Individual icon styling */
+  .navbar__icons i {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #262626;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for icons */
+  .navbar__icons i:hover {
+    color: #8e8e8e;
+  }
+  

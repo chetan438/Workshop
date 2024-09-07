@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app__content {
+  display: flex;
+  flex: 1;
+  margin-top: 60px; /* Adjust according to header height */
+  margin-bottom: 60px; /* Adjust according to footer height */
+}
+
+.feed {
+  display: flex;
+  flex: 1;
+  max-width: 600px; /* Ensure Feed has the same max-width as Footer */
+  margin: auto; /* Center the Feed */
+  background-color: #fafafa; /* Background color of the feed area */
+}
+
+.feed__posts {
+  flex: 3; /* Flex-grow to make posts section larger */
+}
+
+.sidebar {
+  flex: 1; /* Flex-grow to make sidebar section smaller */
+  background-color: #ffffff; /* Sidebar background color */
+  padding: 20px; /* Padding for sidebar content */
+  border-left: 1px solid #e6e6e6; /* Border to separate sidebar from posts */
+  height: 100vh; /* Full viewport height for sidebar */
+  overflow-y: auto; /* Scroll if content overflows */
+}

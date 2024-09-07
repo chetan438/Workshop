@@ -1,0 +1,9 @@
+.sidebar {
+    flex: 1; /* Flex-grow to make sidebar section smaller */
+    background-color: #ffffff; /* Sidebar background color */
+    padding: 20px; /* Padding for sidebar content */
+    border-left: 1px solid #e6e6e6; /* Border to separate sidebar from posts */
+    height: 100vh; /* Full viewport height for sidebar */
+    overflow-y: auto; /* Scroll if content overflows */
+  }
+  

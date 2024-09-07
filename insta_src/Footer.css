@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 600px; /* Same max-width as Feed */
+    margin: 0 auto; /* Center the footer horizontally */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
+  }
+  

@@ -1,0 +1,9 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Same width as Header */
+  margin: 0 auto; /* Center the Feed horizontally */
+  padding: 10px;
+  padding-top: 80px; /* Space for the fixed header */
+}

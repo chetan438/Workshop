@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
+    position: fixed; /* Fixed position to stay at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 600px; /* Same max-width as Feed */
+    margin: 0 auto; /* Center the header horizontally */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute space between left and right */
+    width: 100%; /* Full width of the header */
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .header__logoText {
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    color: #262626;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__right i {
+    margin: 0 8px;
+    font-size: 20px;
+    color: #262626;
+    cursor: pointer;
+  }
+  
+  .header__right i:hover {
+    color: #8e8e8e;
+  }
+  
+  .header__stories {
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling if stories exceed width */
+    padding: 10px 0; /* Padding for space around stories */
+    width: 100%;
+    white-space: nowrap; /* Prevents wrapping of stories */
+    margin-top: 10px; /* Space between header text and stories */
+  }
+  
+  .header__story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 8px; /* Space between stories */
+  }
+  
+  .header__storyImage {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size to maintain circle shape */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures image covers the circle */
+  }
+  
+  .header__storyText {
+    font-size: 12px; /* Adjust text size as needed */
+    color: #262626;
+    margin-top: 4px; /* Space between story image and text */
+  }
+  
